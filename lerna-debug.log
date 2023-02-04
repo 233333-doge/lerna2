@@ -1,13 +1,157 @@
 0 silly argv {
-0 silly argv   _: [ 'add' ],
-0 silly argv   globs: [ 'packages/init' ],
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '6.4.1',
-0 silly argv   '$0': 'C:\\Users\\wangfan\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
-0 silly argv   pkg: '@lerna2/child-process'
+0 silly argv   '$0': 'C:\\Users\\wangfan\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
 0 silly argv }
 1 notice cli v6.4.1
 2 verbose rootPath D:\lernaLearn\lerna2
-3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@lerna2%2fchild-process - Not found
-3 error     at D:\lernaLearn\lerna2\node_modules\npm-registry-fetch\lib\check-response.js:95:15
-3 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-3 error     at async RegistryFetcher.packument (D:\lernaLearn\lerna2\node_modules\pacote\lib\registry.js:92:19)
+3 warn EPACKAGES No packages defined in lerna.json. Defaulting to packages in packages/*
+4 verbose session 507e2bc3f804f553
+5 verbose user-agent lerna/6.4.1/node@v16.14.2+x64 (win32)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.4.1' }
+7 verbose rootPath D:\lernaLearn\lerna2
+8 warn EPACKAGES No packages defined in lerna.json. Defaulting to packages in packages/*
+9 info current version 0.0.1
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v0.0.1-1-g837e00c" => {"lastTagName":"v0.0.1","lastVersion":"v0.0.1","refCount":"1","sha":"837e00c","isDirty":false}
+20 info Looking for changed packages since v0.0.1
+21 silly checking diff packages/cli
+22 silly no diff found in @lerna2/cli
+23 silly checking diff packages/create
+24 silly found diff in packages/create/index.js
+25 verbose filtered diff [ 'packages/create/index.js' ]
+26 silly checking diff packages/init
+27 silly no diff found in @lerna2/init
+28 silly checking diff packages/lerna2
+29 silly no diff found in @lerna2/lerna2
+30 verbose updated @lerna2/create
+31 verbose updated @lerna2/lerna2
+32 verbose git-describe undefined => "v0.0.1-1-g837e00c"
+33 silly git-describe parsed => {"lastTagName":"v0.0.1","lastVersion":"v0.0.1","refCount":"1","sha":"837e00c","isDirty":false}
+34 info execute Skipping releases
+35 silly lifecycle No script for "preversion" in "lerna2", continuing
+36 silly lifecycle No script for "preversion" in "@lerna2/cli", continuing
+37 silly lifecycle No script for "preversion" in "@lerna2/create", continuing
+38 silly lifecycle No script for "preversion" in "@lerna2/init", continuing
+39 silly lifecycle No script for "version" in "@lerna2/init", continuing
+40 silly lifecycle No script for "version" in "@lerna2/cli", continuing
+41 silly lifecycle No script for "version" in "@lerna2/create", continuing
+42 silly lifecycle No script for "preversion" in "@lerna2/lerna2", continuing
+43 silly lifecycle No script for "version" in "@lerna2/lerna2", continuing
+44 verbose version Updating root package-lock.json
+45 silly lifecycle No script for "version" in "lerna2", continuing
+46 silly version Successfully applied prettier to updated file: packages/init/package.json
+47 silly version Successfully applied prettier to updated file: packages/init/package-lock.json
+48 silly version Successfully applied prettier to updated file: packages/cli/package.json
+49 silly version Successfully applied prettier to updated file: packages/cli/package-lock.json
+50 silly version Successfully applied prettier to updated file: packages/create/package.json
+51 silly version Successfully applied prettier to updated file: packages/create/package-lock.json
+52 silly version Successfully applied prettier to updated file: packages/lerna2/package.json
+53 silly version Successfully applied prettier to updated file: packages/lerna2/package-lock.json
+54 silly version Successfully applied prettier to updated file: lerna.json
+55 silly version Successfully applied prettier to updated file: package-lock.json
+56 silly gitAdd [
+56 silly gitAdd   'packages/init/package.json',
+56 silly gitAdd   'packages/init/package-lock.json',
+56 silly gitAdd   'packages/cli/package.json',
+56 silly gitAdd   'packages/cli/package-lock.json',
+56 silly gitAdd   'packages/create/package.json',
+56 silly gitAdd   'packages/create/package-lock.json',
+56 silly gitAdd   'packages/lerna2/package.json',
+56 silly gitAdd   'packages/lerna2/package-lock.json',
+56 silly gitAdd   'lerna.json',
+56 silly gitAdd   'package-lock.json'
+56 silly gitAdd ]
+57 silly gitCommit v0.0.2
+58 verbose git [ 'commit', '-m', 'v0.0.2' ]
+59 silly gitTag v0.0.2 git tag %s -m %s
+60 verbose git [ 'tag', 'v0.0.2', '-m', 'v0.0.2' ]
+61 silly lifecycle No script for "postversion" in "@lerna2/cli", continuing
+62 silly lifecycle No script for "postversion" in "@lerna2/create", continuing
+63 silly lifecycle No script for "postversion" in "@lerna2/init", continuing
+64 silly lifecycle No script for "postversion" in "@lerna2/lerna2", continuing
+65 silly lifecycle No script for "postversion" in "lerna2", continuing
+66 info git Pushing tags...
+67 silly gitPush origin main
+68 info publish Publishing packages to npm...
+69 notice Skipping all user and access validation due to third-party registry
+70 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+71 warn ENOLICENSE Packages @lerna2/cli, @lerna2/create, @lerna2/init, and @lerna2/lerna2 are missing a license.
+71 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+71 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+72 silly getCurrentSHA
+73 verbose getCurrentSHA 3ec6ff95ac4d4601c26f1730c363884d14d36f81
+74 silly lifecycle No script for "prepublish" in "lerna2", continuing
+75 silly lifecycle No script for "prepare" in "lerna2", continuing
+76 silly lifecycle No script for "prepublishOnly" in "lerna2", continuing
+77 silly lifecycle No script for "prepack" in "lerna2", continuing
+78 verbose pack-directory packages\cli
+79 verbose pack-directory packages\create
+80 verbose pack-directory packages\init
+81 silly lifecycle No script for "prepublish" in "@lerna2/cli", continuing
+82 silly lifecycle No script for "prepublish" in "@lerna2/create", continuing
+83 silly lifecycle No script for "prepublish" in "@lerna2/init", continuing
+84 silly lifecycle No script for "prepare" in "@lerna2/cli", continuing
+85 silly lifecycle No script for "prepare" in "@lerna2/create", continuing
+86 silly lifecycle No script for "prepare" in "@lerna2/init", continuing
+87 silly lifecycle No script for "prepublishOnly" in "@lerna2/init", continuing
+88 silly lifecycle No script for "prepublishOnly" in "@lerna2/cli", continuing
+89 silly lifecycle No script for "prepublishOnly" in "@lerna2/create", continuing
+90 silly lifecycle No script for "prepack" in "@lerna2/init", continuing
+91 silly lifecycle No script for "prepack" in "@lerna2/cli", continuing
+92 silly lifecycle No script for "prepack" in "@lerna2/create", continuing
+93 silly lifecycle No script for "postpack" in "@lerna2/init", continuing
+94 verbose packed packages\init
+95 silly lifecycle No script for "postpack" in "@lerna2/cli", continuing
+96 verbose packed packages\cli
+97 silly lifecycle No script for "postpack" in "@lerna2/create", continuing
+98 verbose packed packages\create
+99 verbose pack-directory packages\lerna2
+100 silly lifecycle No script for "prepublish" in "@lerna2/lerna2", continuing
+101 silly lifecycle No script for "prepare" in "@lerna2/lerna2", continuing
+102 silly lifecycle No script for "prepublishOnly" in "@lerna2/lerna2", continuing
+103 silly lifecycle No script for "prepack" in "@lerna2/lerna2", continuing
+104 silly lifecycle No script for "postpack" in "@lerna2/lerna2", continuing
+105 verbose packed packages\lerna2
+106 silly lifecycle No script for "postpack" in "lerna2", continuing
+107 verbose publish @lerna2/cli
+108 verbose publish @lerna2/create
+109 verbose publish @lerna2/init
+110 silly FetchError: request to https://registry.npmjs.org/@lerna2%2finit failed, reason: read ECONNRESET
+110 silly     at ClientRequest.<anonymous> (D:\lernaLearn\lerna2\node_modules\minipass-fetch\lib\index.js:130:14)
+110 silly     at ClientRequest.emit (node:events:526:28)
+110 silly     at TLSSocket.socketErrorListener (node:_http_client:442:9)
+110 silly     at TLSSocket.emit (node:events:538:35)
+110 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+110 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+110 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+110 silly  FetchError: request to https://registry.npmjs.org/@lerna2%2finit failed, reason: read ECONNRESET
+110 silly     at ClientRequest.<anonymous> (D:\lernaLearn\lerna2\node_modules\minipass-fetch\lib\index.js:130:14)
+110 silly     at ClientRequest.emit (node:events:526:28)
+110 silly     at TLSSocket.socketErrorListener (node:_http_client:442:9)
+110 silly     at TLSSocket.emit (node:events:538:35)
+110 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+110 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+110 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+110 silly   code: 'ECONNRESET',
+110 silly   errno: 'ECONNRESET',
+110 silly   syscall: 'read',
+110 silly   type: 'system'
+110 silly }
+111 error ECONNRESET request to https://registry.npmjs.org/@lerna2%2finit failed, reason: read ECONNRESET
+112 error FetchError: request to https://registry.npmjs.org/@lerna2%2finit failed, reason: read ECONNRESET
+112 error     at ClientRequest.<anonymous> (D:\lernaLearn\lerna2\node_modules\minipass-fetch\lib\index.js:130:14)
+112 error     at ClientRequest.emit (node:events:526:28)
+112 error     at TLSSocket.socketErrorListener (node:_http_client:442:9)
+112 error     at TLSSocket.emit (node:events:538:35)
+112 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+112 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)

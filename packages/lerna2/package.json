@@ -39,5 +39,6 @@
     "child-process": "^1.0.2",
     "execa": "^6.1.0",
     "fs-extra": "^11.1.0"
-  }
+  },
+  "gitHead": "3ec6ff95ac4d4601c26f1730c363884d14d36f81"
 }
