@@ -1,6 +1,6 @@
 {
   "name": "@learn2/lerna2",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "lerna2",
   "keywords": [
     "lerna2"
@@ -36,9 +36,9 @@
     "child-process": "^1.0.2",
     "execa": "^6.1.0",
     "fs-extra": "^11.1.0",
-    "wangfan_cli": "^0.1.5",
-    "wangfan_create": "^0.1.5",
-    "wangfan_init": "^0.1.5"
+    "wangfan_cli": "^0.1.7",
+    "wangfan_create": "^0.1.7",
+    "wangfan_init": "^0.1.7"
   },
   "gitHead": "938970e2cb5e5ba85fac9c27cb764b3f5739e65f"
 }
