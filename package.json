@@ -1,5 +1,5 @@
 {
-  "name": "lerna2",
+  "name": "my_lerna2",
   "private": true,
   "devDependencies": {
     "eslint": "^8.32.0",

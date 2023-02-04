@@ -8,7 +8,7 @@ class CreateCommand {
     this.rootPath = path.resolve();
   }
   async execute() {
-    console.Console("执行create4");
+    console.Console("执行create5");
     //name=xxx registry=私服地址
     const { name, registry } = this.options;
     this.targetDir = path.join(this.rootPath, `packages/${name}`);
