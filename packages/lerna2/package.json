@@ -30,7 +30,7 @@
     "url": "https://github.com/233333-doge/lerna2/issues"
   },
   "bin": {
-    "lerna5": "cli.js"
+    "lerna7": "cli.js"
   },
   "dependencies": {
     "child-process": "^1.0.2",
