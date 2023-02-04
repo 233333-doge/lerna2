@@ -3,11 +3,11 @@
 // }
 // module.exports = lerna2;
 
-const cli = require("@lerna2/cli");
+const cli = require("wangfan_cli");
 // let cli2 = cli();
 // console.log(cli2);
-const initCmd = require("@lerna2/init/command");
-const createCmd = require("@lerna2/create/command");
+const initCmd = require("wangfan_init/command");
+const createCmd = require("wangfan_create/command");
 function main(argv) {
   // cli返回的是yargs的实例
   // 配置init命令
