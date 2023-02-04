@@ -1,0 +1,13 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ 'packages/init' ],
+0 silly argv   lernaVersion: '6.4.1',
+0 silly argv   '$0': 'C:\\Users\\wangfan\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: '@lerna2/child-process'
+0 silly argv }
+1 notice cli v6.4.1
+2 verbose rootPath D:\lernaLearn\lerna2
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@lerna2%2fchild-process - Not found
+3 error     at D:\lernaLearn\lerna2\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+3 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+3 error     at async RegistryFetcher.packument (D:\lernaLearn\lerna2\node_modules\pacote\lib\registry.js:92:19)

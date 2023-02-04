@@ -1,10 +1,17 @@
 {
-  "name": "root",
+  "name": "lerna2",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
-    "lerna": "^6.4.1"
+    "eslint": "^8.32.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lerna": "^6.4.1",
+    "prettier": "^2.8.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext .js packages/**/*.js --no-error-on-unmatched-pattern --fix "
+  },
+  "dependencies": {
+    "execa": "^6.1.0"
   }
 }
