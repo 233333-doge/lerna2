@@ -1,5 +1,5 @@
 {
-  "name": "my_init",
+  "name": "wangfan_init",
   "version": "0.1.4",
   "description": "init",
   "keywords": [
@@ -35,5 +35,5 @@
     "execa": "^6.1.0",
     "fs-extra": "^11.1.0"
   },
-  "gitHead": "a630c8950243b0ab34999574b11b5e41e4b00b45"
+  "gitHead": "e342bd424026b1716446acef015abc4820d19ab8"
 }
