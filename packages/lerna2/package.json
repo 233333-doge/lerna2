@@ -1,5 +1,5 @@
 {
-  "name": "@lerna2/lerna2",
+  "name": "my_lerna2",
   "version": "0.1.3",
   "description": "lerna2",
   "keywords": [
@@ -40,5 +40,5 @@
     "execa": "^6.1.0",
     "fs-extra": "^11.1.0"
   },
-  "gitHead": "705ba77e72ab2a08a53b643b5a33d8580230fa35"
+  "gitHead": "a630c8950243b0ab34999574b11b5e41e4b00b45"
 }

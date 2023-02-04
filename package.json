@@ -1,6 +1,6 @@
 {
   "name": "my_lerna2",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-plugin-prettier": "^4.2.1",
