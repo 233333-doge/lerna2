@@ -15,7 +15,7 @@
   },
   "files": [
     "lib",
-    "command"
+    "command.js"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
