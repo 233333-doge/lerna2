@@ -1,6 +1,6 @@
 {
   "name": "@lerna2/lerna2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "lerna2",
   "keywords": [
     "lerna2"
@@ -33,9 +33,9 @@
     "lerna4": "cli.js"
   },
   "dependencies": {
-    "@lerna2/cli": "^0.0.0",
-    "@lerna2/create": "^0.0.0",
-    "@lerna2/init": "^0.0.0",
+    "@lerna2/cli": "^0.0.1",
+    "@lerna2/create": "^0.0.1",
+    "@lerna2/init": "^0.0.1",
     "child-process": "^1.0.2",
     "execa": "^6.1.0",
     "fs-extra": "^11.1.0"
