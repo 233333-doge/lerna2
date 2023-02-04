@@ -1,5 +1,5 @@
 {
-  "name": "@learn2/lerna2",
+  "name": "wangfan_lerna2",
   "version": "0.1.7",
   "description": "lerna2",
   "keywords": [
@@ -40,5 +40,5 @@
     "wangfan_create": "^0.1.7",
     "wangfan_init": "^0.1.7"
   },
-  "gitHead": "938970e2cb5e5ba85fac9c27cb764b3f5739e65f"
+  "gitHead": "f9c4f979cd49e2e0244c2099d1e653152f13f144"
 }
