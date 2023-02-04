@@ -17,7 +17,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://localhost:4873/"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,5 @@
     "fs-extra": "^11.1.0",
     "yargs": "^17.6.2"
   },
-  "gitHead": "3ec6ff95ac4d4601c26f1730c363884d14d36f81"
+  "gitHead": "b71ce727b3f6bef82a8f5626145c8aa037f31ba1"
 }
