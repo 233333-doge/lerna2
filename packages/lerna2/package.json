@@ -1,6 +1,6 @@
 {
   "name": "@learn2/lerna2",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "lerna2",
   "keywords": [
     "lerna2"
@@ -33,12 +33,12 @@
     "lerna4": "cli.js"
   },
   "dependencies": {
-    "wangfan_cli": "^0.1.5",
-    "wangfan_create": "^0.1.5",
-    "wangfan_init": "^0.1.5",
     "child-process": "^1.0.2",
     "execa": "^6.1.0",
-    "fs-extra": "^11.1.0"
+    "fs-extra": "^11.1.0",
+    "wangfan_cli": "^0.1.5",
+    "wangfan_create": "^0.1.5",
+    "wangfan_init": "^0.1.5"
   },
   "gitHead": "e342bd424026b1716446acef015abc4820d19ab8"
 }
